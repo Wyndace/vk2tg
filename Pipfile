@@ -12,6 +12,8 @@ aiohttp = "*"
 requests = "*"
 apscheduler = "*"
 pygsheets = {file = "https://github.com/nithinmurali/pygsheets/archive/staging.zip"}
+pyppeteer = "*"
+vkwave = {file = "https://github.com/fscdev/vkwave/archive/master.zip"}
 
 [dev-packages]
 

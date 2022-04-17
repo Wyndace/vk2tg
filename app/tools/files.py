@@ -31,8 +31,9 @@ def update_json(data: dict | list, path: str):
         old_data = read_from_json(path)
     except Exception:
         old_data = None
+    print(data, old_data, type(data), type(old_data))
     if old_data and type(old_data) == type(data) == dict:
-        data.update(old_data)
+        old_data.update(data)
     elif old_data and type(old_data) == type(data) == list:
         data += old_data
     write_to_json(data, path)
