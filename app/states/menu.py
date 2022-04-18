@@ -1,7 +1,7 @@
 from asyncio import run
 
-from app.states.gsheet_menu import gsheet_menu
-from app.states.parser_menu import parser_menu
+#from app.states.gsheet_menu import gsheet_menu
+#from app.states.parser_menu import parser_menu
 from app.tools.common import async_chooser_menu
 from app.tools.files import read_from_json, write_to_json
 
